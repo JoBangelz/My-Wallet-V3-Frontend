@@ -39,7 +39,7 @@ function SettingsPreferencesCtrl ($scope, Wallet, Alerts, currency, $uibModal, $
     }
   });
 
-  $scope.changeCurrency = (currency) => {
+  $scope.changeBtcUnit = (currency) => {
     Wallet.changeBTCCurrency(currency);
   };
 
